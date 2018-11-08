@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">CriminalIntent</string>
+    <string name="crime_title_hint">Введите название преступления.</string>
+    <string name="crime_title_label">Название</string>
+    <string name="crime_details_label">Детали</string>
+    <string name="crime_solved_label">Раскрыто</string>
+    <string name="crime_title">Наименование проступка</string>
+    <string name="crime_date">Дата проступка</string>
+    <string name="btn_first">В начало</string>
+    <string name="btn_last">В конец</string>
+    <string name="date_picker_title">Дата преступления:</string>
+    <string name="time_picker_title">Время преступления:</string>
+    <string name="new_crime">Добавить</string>
+    <string name="delete_crime">Удалить</string>
+    <string name="show_subtitle">Показать описание</string>
+    <string name="hide_subtitle">Скрыть описание</string>
+    <string name="subtitle_format">%1d пакостей</string>
+    <string name="empty_list_string">Список пуст!\nПродолжайте наблюдать…</string>
+    <string name="crime_suspect_text">Выбрать подозреваемого</string>
+    <string name="crime_report_text">Выслать отчет</string>
+
+    <string name="crime_report">Сводка преступления:\n%1$s! Преступление зарегестрировано %2$s. %3$s %4$s</string>
+    <string name="crime_report_solved">Раскрыто.</string>
+    <string name="crime_report_unsolved">Не раскрыто.</string>
+    <string name="crime_report_no_suspect">Подозреваемых нет.</string>
+    <string name="crime_report_suspect">Подозреваемый - %s.</string>
+    <string name="crime_report_subject">Отчетность</string>
+    <string name="send_crime_report">Настучать с помощью</string>
+    <string name="date_format">EEE, d MMM yyyy</string>
+    <string name="call_suspect">Позвонить подозреваемому</string>
+
+    <plurals name="subtitle_plural">
+        <item quantity="one">%1d преступление</item>
+        <item quantity="few">%1d преступления</item>
+        <item quantity="many">%1d преступлений</item>
+    </plurals>
+
+    <string name="crime_photo_button_description">Сделать фотографию преступления</string>
+    <string name="crime_photo_no_image_description">Фото отсутсвует</string>
+    <string name="crime_photo_image_description">Фото установлено</string>
+    <string name="crime_solved_image_description">Успешно раскрыто</string>
+    <string name="crime_not_solved_image_description">Не раскрыто</string>
+    <string name="crime_date_chooser_button_description">Установка даты преступления</string>
+    <string name="crime_time_chooser_button_description">Установка времени преступления</string>
+    <string name="crime_choose_suspect_button_description">Выбор подозреваемого</string>
+    <string name="crime_report_button_description">Послать отчет</string>
+    <string name="crime_call_suspect_button_description">Вызов подозреваемого</string>
+    <string name="crime_photo_view_has_updated_announcement">Фото обновлено</string>
+</resources>

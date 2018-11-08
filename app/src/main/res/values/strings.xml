@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">CriminalIntent</string>
+    <string name="crime_title_hint">Enter a title for the crime.</string>
+    <string name="crime_title_label">Title</string>
+    <string name="crime_details_label">Details</string>
+    <string name="crime_solved_label">Solved</string>
+    <string name="crime_title">Crime title</string>
+    <string name="crime_date">Crime date</string>
+    <string name="btn_first">first</string>
+    <string name="btn_last">last</string>
+    <string name="date_picker_title">Date of crime:</string>
+    <string name="time_picker_title">Time of time:</string>
+    <string name="new_crime">New Crime</string>
+    <string name="delete_crime">Delete Crime</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1d crimes</string>
+    <string name="empty_list_string">Crime list is empty\nJust keep an eye on somewhere</string>
+    <string name="crime_suspect_text">Choose Suspect</string>
+    <string name="crime_report_text">Send Crime Report</string>
+
+    <string name="crime_report">Crime Report:\n%1$s! The crime was discovered on %2$s. %3$s, and %4$s</string>
+    <string name="crime_report_solved">The case is solved</string>
+    <string name="crime_report_unsolved">The case is not solved</string>
+    <string name="crime_report_no_suspect">there is no suspect.</string>
+    <string name="crime_report_suspect">the suspect is %s.</string>
+    <string name="crime_report_subject">CriminalIntent Crime Report</string>
+    <string name="send_crime_report">Send crime report via</string>
+    <string name="date_format">MMM d, EEE yyyy</string>
+    <string name="call_suspect">Call Suspect</string>
+
+    <plurals name="subtitle_plural">
+        <item quantity="one">%1d crime</item>
+        <item quantity="other">%1d crimes</item>
+    </plurals>
+
+    <string name="crime_photo_button_description">Take photo of crime scene</string>
+    <string name="crime_photo_no_image_description">Crime scene photo (not set)</string>
+    <string name="crime_photo_image_description">Crime scene photo</string>
+    <string name="crime_solved_image_description">Solved</string>
+    <string name="crime_not_solved_image_description">Not solved</string>
+    <string name="crime_date_chooser_button_description">Set a crime date</string>
+    <string name="crime_time_chooser_button_description">Set a crime time</string>
+    <string name="crime_choose_suspect_button_description">Select suspect for the crime</string>
+    <string name="crime_report_button_description">Send crime report</string>
+    <string name="crime_call_suspect_button_description">Call suspect</string>
+    <string name="crime_photo_view_has_updated_announcement">Image has been updated</string>
+</resources>
