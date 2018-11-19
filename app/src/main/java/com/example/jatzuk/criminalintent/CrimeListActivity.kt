@@ -2,7 +2,7 @@ package com.example.jatzuk.criminalintent
 
 import android.view.View
 
-class CrimeListActivity : SingleFragmentActivity(), CrimeListFragment.Callback,/* CrimeListFragment.Deleted,*/ CrimeFragment.Callback {
+class CrimeListActivity : SingleFragmentActivity(), CrimeListFragment.Callback, CrimeFragment.Callback {
     override fun createFragment() = CrimeListFragment()
 
     override fun getLayoutResId() = R.layout.activity_masterdetail
